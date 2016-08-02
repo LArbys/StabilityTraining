@@ -2,11 +2,11 @@ import models
 import cPickle
 import numpy as np
 import tensorflow as tf
-from larcvio.stabImage2DReader import Image2DReader
-from stab_models import resnet
+from StabilityImageReader import Image2DReader
+from stability_model import resnet
 train_str = "train"
 
-filler_str = "./larcvio/filler.cfg" #give location of filler file
+filler_str = "./filler.cfg" #give location of filler file
 
 train_batch_size = 2 #must be small for 32 layer resnet and stability training
 num_classes = 2

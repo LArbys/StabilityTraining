@@ -1,5 +1,5 @@
 import tensorflow as tf
-from stab_resnet import softmax_layer, conv_layer, residual_block
+from stability_resnet import softmax_layer, conv_layer, residual_block
 
 #once again, not much to mess with here. Takes stuff from stability_resnet.py and puts it all together
 
